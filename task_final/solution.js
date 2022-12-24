@@ -36,13 +36,13 @@ function sendRequest(name, phone, address, goods, sum) {
     
     let data = {goods: [], order: {}};
 
-    name = "Иван";
-    street = "ул. Ленина";
-    phone = "+7(987)65-43-210";
-    house = "дом 2";
-    entrance = "4 подъезд";
-    floor = "5 этаж";
-    flat = "кв. 53";
+    name = ["Иван", "Василий Иванович"];
+    street = ["ул. Ленина", "ул. Академика Королёва"];
+    phone = ["+7(987)65-43-210", "+7(987)65-43-210"];
+    house = ["дом 2","дом 12"];
+    entrance = ["4 подъезд", "1 подъезд"];
+    floor = ["5 этаж", "15 этаж"];
+    flat = ["кв. 53", "кв. 253"];
 
     let countOfGoods = goods.length;
 
